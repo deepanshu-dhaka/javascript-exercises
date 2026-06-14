@@ -6,7 +6,7 @@ const fibonacci = function (num) {
         return "OOPS"
     }
     else if (typeof num === "string") {
-        String(num);
+        Number(num);
     }
     let a = 0;
     let b = 1;
